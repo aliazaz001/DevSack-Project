@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+.navbar {
+    max-width: 1200px;
+    min-height: 72px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.brand img {
+    width: 130px;
+    display: block;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    list-style: none;
+}
+
+.nav-links a {
+    color: #4b5563;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #ec4899;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.sign-in-button {
+    border: none;
+    background: transparent;
+    color: #374151;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.sign-up-button {
+    border: none;
+    border-radius: 999px;
+    padding: 9px 20px;
+
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+    background: linear-gradient(90deg,
+            #ff7a18,
+            #ec4899,
+            #8b5cf6);
+}
+
+.nav-links a {
+    color: #4b5563;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-links .homecolor {
+    color: #ec4899;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #ec4899;
+}
