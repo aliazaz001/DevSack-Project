@@ -160,7 +160,7 @@
 }
 
 
-/* Category + Difficulty + Rating */
+
 
 .technology-info {
   margin-top: 18px;
@@ -188,9 +188,7 @@
 }
 
 
-/* =========================
-   Add To Stack Button
-========================= */
+
 
 .add-stack-button {
   width: 100%;
@@ -222,9 +220,7 @@
 }
 
 
-/* =========================
-   Your Stack
-========================= */
+
 
 .your-stack {
   width: 300px;
@@ -258,7 +254,7 @@
 }
 
 
-/* Empty Stack */
+
 
 .empty-stack {
   height: 110px;
@@ -277,9 +273,7 @@
 }
 
 
-/* =========================
-   Selected Stack Items
-========================= */
+
 
 .stack-list {
   display: flex;
@@ -326,7 +320,7 @@
 }
 
 
-/* Remove Button */
+
 
 .remove-item-button {
   border: none;
@@ -339,7 +333,6 @@
 }
 
 
-/* Remove All */
 
 .remove-all-button {
   width: 100%;
@@ -360,9 +353,7 @@
 }
 
 
-/* =========================
-   Tablet
-========================= */
+
 
 @media screen and (max-width: 1000px) {
 
@@ -385,9 +376,7 @@
 }
 
 
-/* =========================
-   Mobile
-========================= */
+
 
 @media screen and (max-width: 600px) {
 
