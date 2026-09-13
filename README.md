@@ -1,16 +1,40 @@
-# React + Vite
+ #Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Description
+Dev Stack Builder is a React-based website where users can explore different development technologies and build their own development stack.
 
-Currently, two official plugins are available:
+#Technologies Used
+ React
+ JavaScript
+ CSS
+ Vite
+ JSON
+ Tailwind 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ #Features
+  Users can explore different development technologies.
+  Users can add technologies to their stack.
+  Users can remove technologies from their stack.
 
-## React Compiler
+React Questions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. What is JSX, and why is it used in React?
+   JSX lets us write HTML-like code inside JavaScript. It makes React UI easier to build.
 
-## Expanding the Oxlint configuration
+ 2. What is the difference between props and state?
+   Props pass data from parent to child. State stores and updates data inside a component.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+ 3. What does the useState hook do, and where did you use it in this project?
+    useState stores and updates data. I used it to manage data in my project.
+
+ 4. What does the useEffect hook do and why did you need it to load the JSON data?
+    useEffect runs code after the component loads. I used it to load JSON data.
+
+ 5. Why does every item in a .map() list need a unique key prop?
+    A unique key helps React identify each item and update the list correctly.
+
+ 6. What is conditional rendering? Show one place you used it.
+   Conditional rendering shows different UI based on a condition. I used it to show the empty stack message.
+
+ 7. How do you pass data from a parent component to a child component, and how does a    child send something back to the parent?
+    Parent to child data is passed using props. Child to parent data is sent using a callback function.
