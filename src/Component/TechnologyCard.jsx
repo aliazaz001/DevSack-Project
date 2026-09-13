@@ -41,7 +41,7 @@ function TechnologyCard({ technology, isAdded, onAddToStack }) {
         onClick={() => onAddToStack(technology)}
         disabled={isAdded}
       >
-        {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+        {isAdded ? "✓  Added to Stack" : "Add to Stack"}
       </button>
 
     </div>
