@@ -4,7 +4,7 @@ function Navbar() {
       
       <nav className="navbar">
         
-        {/* Mobile Hamburger */}
+       
         <button className="hamburger-button">
           ☰
         </button>
@@ -13,7 +13,7 @@ function Navbar() {
           <img src="/logo-text.png" alt="Dev Stack Logo" />
         </div>
 
-        {/* Center: Navigation links */}
+        
         <ul className="nav-links">
           <li>
             <a className="homecolor" href="#home">Home</a>
@@ -36,7 +36,7 @@ function Navbar() {
           </li>
         </ul>
 
-        {/* Right side: Authentication buttons */}
+        
         <div className="nav-buttons">
           <button className="sign-in-button">Sign In</button>
           <button className="sign-up-button">Sign Up</button>
