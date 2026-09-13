@@ -1,9 +1,14 @@
 function Navbar() {
   return (
     <header className="header">
+      
       <nav className="navbar">
         
-        
+        {/* Mobile Hamburger */}
+        <button className="hamburger-button">
+          ☰
+        </button>
+
         <div className="brand">
           <img src="/logo-text.png" alt="Dev Stack Logo" />
         </div>
@@ -11,7 +16,7 @@ function Navbar() {
         {/* Center: Navigation links */}
         <ul className="nav-links">
           <li>
-            <a className="homecolor "href="#home">Home</a>
+            <a className="homecolor" href="#home">Home</a>
           </li>
 
           <li>
