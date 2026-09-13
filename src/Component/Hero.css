@@ -7,14 +7,16 @@
 
 .hero-container {
   width: 100%;
-  max-width: 1216px;
+  max-width: 1200px;
   min-height: 420px;
+
   margin: 0 auto;
+  padding: 0 24px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 60px;
 }
 
 /* LEFT SIDE */
@@ -151,7 +153,11 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 40px 18px;
+    .hero {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 64px 0 70px;
+}
   }
 
   .hero-container {

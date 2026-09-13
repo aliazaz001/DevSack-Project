@@ -1,5 +1,6 @@
 import Navbar from "./Component/Navbar";
 import Hero from "./Component/Hero";
+import Technologies from "./Component/Technologies";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
   
       <Hero />
+     <Technologies/>
     </>
   );
 }
