@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* এরপর তোমার আগের CSS... */
+
 
 * {
     margin: 0;
@@ -129,7 +129,7 @@ body {
     font-size: 26px;
 }
 
-/* Mobile Responsive */
+
 @media screen and (max-width: 576px) {
 
     .navbar {
@@ -141,18 +141,18 @@ body {
         align-items: center;
     }
 
-    /* Left: Hamburger */
+  
     .hamburger-button {
         display: block;
         justify-self: start;
     }
 
-    /* Hide navigation links */
+    
     .nav-links {
         display: none;
     }
 
-    /* Center: Logo */
+   
     .brand {
         justify-self: center;
     }
@@ -161,7 +161,7 @@ body {
         width: 90px;
     }
 
-    /* Right: Sign In + Sign Up */
+    
     .nav-buttons {
         justify-self: end;
         gap: 6px;
